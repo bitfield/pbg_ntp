@@ -1,8 +1,6 @@
 # Manage NTP
 class ntp {
-  package { 'ntp':
-    ensure => installed,
-  }
+  ensure_packages(['ntp'])
 
   file { '/etc/ntp.conf':
     source  => 'puppet:///modules/ntp/ntp.conf',
