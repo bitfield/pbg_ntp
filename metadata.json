@@ -1,14 +1,14 @@
 {
-  "name": "pbg-ntp",
-  "version": "0.1.1",
+  "name": "pbg_ntp",
+  "version": "0.1.2",
   "author": "John Arundel",
   "summary": "Example module to manage NTP",
   "license": "Apache-2.0",
-  "source": "https://github.com/bitfield/pbg-ntp.git",
-  "project_page": "https://github.com/bitfield/pbg-ntp",
+  "source": "https://github.com/bitfield/pbg_ntp.git",
+  "project_page": "https://github.com/bitfield/pbg_ntp",
   "tags": ["ntp"],
   "dependencies": [
-    { "name":"puppetlabs/stdlib", "version_requirement": ">= 4.15.0 < 5.0.0" }
+    { "name":"puppetlabs/stdlib", "version_requirement": ">= 4.17.0 < 5.0.0" }
   ],
   "operatingsystem_support": [
     {
