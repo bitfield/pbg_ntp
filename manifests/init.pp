@@ -1,5 +1,5 @@
 # Manage NTP
-class ntp {
+class pbg_ntp {
   ensure_packages(['ntp'])
 
   file { '/etc/ntp.conf':
